@@ -50,9 +50,9 @@ At any time you can stop the server:
 ```
 stop_server           (or ./stop_server.sh in Linux)
 ```
-## Download and run the RTView-ClearBlade connector 
+## Download and run the RTView-JavaScript connector program
 
-Clone this RTView JavaScript to your local computer and follow the steps below to install and run the RTView Simple Example program. This simple Node.js program creates data for a few sensors and populates the RTView DataServer, which provides current and historical caching of incoming metric values for display purposes.
+Clone the RTView-JavaScript to your local computer and follow the steps below to install and run the RTView Simple Example program. This simple Node.js program creates data for a few sensors and populates the RTView DataServer, which provides current and historical caching of incoming metric values for display purposes. Our use of the word connector in reference to this script is due to the fact that in a non-simulated scenario, one of the tasks that this script will be in charge of is to connect to the actual source of data.
 
 To install the connector program:
 ```
