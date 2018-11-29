@@ -94,21 +94,21 @@ Close the dialog.
 On the RTView Cloud top menu bar, click on Design to invoke the RTDraw visual editing tool.
 Select the File dropdown menu and click on Import.
 Select "as Private". 
-In the file browser, navigate to the RTView-JavaSccript directory within this project.
-Select the simple-example.json and click Open.
+In the file browser, navigate to the RTView-JavaSccript directory within this project on your computer.
+Select the SimpleExample.json and click Open.
 ```
-* View or edit the sample displays:
+* View or edit the sample display:
 ```
 Select the File dropdown menu and click on Open...
-Double click the name of the display you would like to open and view in real-time.
+Double click the name of the display you just imported, to open and view it in real-time.
 ```
-The sample display is configured to connect to your local RTView data server and present data changing in real-time.
+This sample display is configured to connect to your local RTView data server and present data changing in real-time.
 You can experiment with the editing features of RTDraw to make changes to these displays or create your own.
 
 ## Achieved Goals
 In this RTView JavaScript you will have achieved the following: 
 * Seen how easy it is to display user data in graphical and highly configurable displays in the Cloud.
-* Launched the simple node program used to send data to RTView.
+* Launched the simple node program used to create and send data to RTView.
 * Seen how users are able to view or enhance a sample RTView display or create new displays.
 
 **Feel free to experiment with, modify or enhance this project, and share your experience, comments and suggestions with us. Please fork this repo and submit a pull request for any changes you would like to suggest.**
