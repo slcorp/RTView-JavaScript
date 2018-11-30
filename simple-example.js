@@ -28,7 +28,8 @@ rtview.set_interval(interval);
 var sensorCacheName  = "SensorData";
 var sensorProperties = {
     "indexColumnNames" : "ID",
-    "historyColumnNames" : "temperature;humidity"
+    "historyColumnNames" : "temperature;humidity",
+	"condenseRowsGroupBy": "temperature:average;humidity:average"
 };
 var sensorMetadata = [ 
     { "ID" : "string" },
@@ -54,12 +55,12 @@ async function processData() {
 			data.ID = 'Sensor-' + (i+1).toString();
 			data.temperature = parseFloat(temperatureSeed + (Math.random() * 0.3)).toFixed(2);
 			data.humidity = parseFloat(humiditySeed + (Math.random() * 0.4)).toFixed(2);
-			data.temp_unit = '°C';
+			data.temp_unit = '\xB0C';    // '°C'
 			
 			console.log('\n... sending data: ' + JSON.stringify(data));
-			console.log();
 			rtview.send_datatable(sensorCacheName, data);
 		}
+		console.log();             // Separate the output per interval
 			
 		await sleep(10000);        // create data points every 10 seconds
     }
