@@ -1,5 +1,5 @@
 {
-    "modifiedDate": "2018-11-30T02:07:59.591Z",
+    "modifiedDate": "2018-11-30T02:22:35.923Z",
     "viewport": {
         "x": 0,
         "y": 0,
@@ -150,7 +150,8 @@
             },
             "labelFont": "normal normal 12pt sans-serif",
             "valueFont": "normal bold 14pt external:\"Open Sans\"",
-            "pos": "400 30"
+            "pos": "400 30",
+            "valueColor": "#35638b"
         },
         {
             "key": -8,
@@ -169,7 +170,8 @@
             },
             "labelFont": "normal normal 12pt sans-serif",
             "valueFont": "normal bold 14pt external:\"Open Sans\"",
-            "pos": "400 350"
+            "pos": "400 350",
+            "valueColor": "#35638b"
         }
     ],
     "linkDataArray": []
