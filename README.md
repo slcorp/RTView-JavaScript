@@ -3,7 +3,7 @@
 ## Overview
 This project provides a JavaScript example that shows how simulated user data, the source of which could be anything in the real world such as edge devices, could be formatted to be used in RTView Cloud to create and deploy rich graphical displays connected to real-time and historical data. 
 
-![](Images/MixingPlantA.jpg)
+![](SensorData.jpg)
 
 By following the steps described below you will:
 
