@@ -29,7 +29,7 @@ var sensorCacheName  = "SensorData";
 var sensorProperties = {
     "indexColumnNames" : "ID",
     "historyColumnNames" : "temperature;humidity",
-	"condenseRowsGroupBy": "temperature:average;humidity:average"
+    "condenseRowsGroupBy": "temperature:average;humidity:average"
 };
 var sensorMetadata = [ 
     { "ID" : "string" },
