@@ -1,7 +1,14 @@
-# RTView JavaScript
+# RTView for JavaScript
 
 ## Overview
-This project provides a JavaScript example that shows how simulated user data, the source of which could be anything in the real world such as edge devices, could be formatted to be used in RTView Cloud to create and deploy rich graphical displays connected to real-time and historical data. 
+
+The `RTView-Javascript` repository  provides instructions and examples showing how to push real-time monitoring data from a Javascript application into an instance of an RTView DataServer and how to use RTView Cloud to create custom dashboards to display the data in real-time.
+
+RTView is a real-time data management, visualization and analytics engine provided by SL Corporation (www.sl.com). It is used by organizations worldwide as a key component of mission-critical monitoring and control systems built around various middleware, infrastructure and IoT data sources.
+
+The RTView DataServer is the data management component that provides in-memory caching and archival to persistent storage. Data stored there may be consumed by displays, dashboards, reports and alerts provided by a visualization and analytics tool such as RTView Cloud.
+
+One of the sample displays created in this example is shown below:
 
 ![](SensorData.jpg)
 
@@ -9,8 +16,8 @@ By following the steps described below you will:
 
 * Create an account on RTView Cloud.
 * Download and run an RTView DataServer on your local computer, which will provide real-time data caching and historical archival.
-* Run a Node.js connector program that simulates a few temperature/humidity sensors and populates the RTView DataServer.
-* Import a sample display into RTView Cloud, showing real-time data coming from Node.js connector program.
+* Run a Node.js program that simulates a few temperature/humidity sensors and populates the RTView DataServer.
+* Import a sample display into RTView Cloud, showing real-time data coming from the Node.js program.
 
 ## Requirements
 To run this project, you will need to have installed on your computer:
