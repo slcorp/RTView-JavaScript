@@ -1,4 +1,4 @@
-# RTView for JavaScript
+# RTView<sup>&reg;</sup> for JavaScript
 
 ## Overview
 
