@@ -72,9 +72,9 @@ To start the program:
 node simple-example
 ```
 This program can be modified to bring in custom data specific to your application.
-Note that this example makes use of a node package containing utility functions for communicating with RTView. This 'rtview-utils' package is referenced in the package.json file and is loaded automatically as part of the npm install. Documentation can be found at:
+Note that this example makes use of a node package containing utility functions for communicating with RTView. This 'rtview-utils' package is referenced in the package.json file and is loaded automatically as part of the npm install.
 
-[https://www.npmjs.com/package/rtview-utils](https://www.npmjs.com/package/rtview-utils)
+Documentation can be found at: [https://www.npmjs.com/package/rtview-utils](https://www.npmjs.com/package/rtview-utils)
 
 ## Import and view the sample display
 
