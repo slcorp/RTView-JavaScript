@@ -4,7 +4,7 @@
 
 The `RTView-Javascript` repository  provides instructions and examples showing how to push real-time monitoring data from a Javascript application into an instance of an RTView DataServer and how to use RTView Cloud to create custom dashboards to display the data in real-time.
 
-RTView is a real-time data management, visualization and analytics engine provided by SL Corporation (www.sl.com). It is used by organizations worldwide as a key component of mission-critical monitoring and control systems, built around various middleware, infrastructure and IoT data sources.
+RTView is a real-time data management, visualization and analytics engine provided by SL Corporation (www.sl.com). It is used by organizations worldwide as a key component of mission-critical monitoring and control systems, built around various middleware, infrastructure, telemetry and IoT data sources.
 
 The RTView DataServer is the data management component that provides in-memory caching and archival to persistent storage. Data stored there may be consumed by displays, dashboards, reports and alerts provided by a visualization and analytics tool such as RTView Cloud.
 
