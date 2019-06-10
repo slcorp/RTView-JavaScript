@@ -1,0 +1,20 @@
+{
+  "name": "simple-example",
+  "version": "1.0.0",
+  "description": "A simple Node.js script that creates demo data and pushes it in to an RTView Data Server",
+  "keywords": [
+    "real-time",
+    "rtview"
+  ],
+  "homepage": "http://www.sl.com",
+  "main": "simple-example.js",
+  "scripts": {
+    "start": "node simple-example.js"
+  },
+  "engines": [
+    "node"
+  ],
+  "dependencies": {
+    "rtview-utils": ""
+  }
+}
