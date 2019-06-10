@@ -38,6 +38,12 @@ Note that you are automatically placed into your own private organization (e.g. 
 	
 ## Download and run the RTView DataServer	
 
+The RTView DataServer is the data management component that provides in-memory caching and optional archival to persistent storage. Data stored there may be consumed by displays, dashboards, reports and alerts provided by a visualization and analytics tool such as RTView Cloud. You can download and launch the RTView DataServer in your own environment, or you can elect a single-click deployment in one of several common Cloud Platforms.
+
+If you would like to run the RTView DataServer in your own environment, follow the instructons below. 
+```
+Note: You will need Java version 1.8 or higher to run this locally
+```
 * From your RTView Cloud account, click on the ? icon at upper right to go to the Support page.
 * Select Downloads and elect to download the RTView DataServer to your computer.
 * Unzip the downloaded **RTViewDataServer_?.?.?.?.zip** file to a directory of your choice.
@@ -57,6 +63,13 @@ At any time you can stop the server:
 ```
 stop_server           (or ./stop_server.sh in Linux)
 ```
+
+NOTE: For convenience, or for production deployments, the RTView DataServer is also available on the Google Cloud Marketplace. Simply go to the URL below in your browser:
+
+* [RTView Data Server on Google Cloud Marketplace](https://console.cloud.google.com/marketplace/details/sl-corp/rtview-dataserver?q=rtview%20dataserver&id=35a6b7b2-f1f3-4a04-87fb-f6047b9ea0b0)
+
+Here you can see the options for launching an instance in your own Google Cloud account with a single click. This version provides persistent data storage and is fully enabled with all advanced features of RTView.
+
 ## Download and run the RTView-JavaScript connector program
 
 Clone the RTView-JavaScript to your local computer and follow the steps below to install and run the RTView Simple Example program. This simple Node.js program creates data for a few sensors and populates the RTView DataServer, which provides current and historical caching of incoming metric values for display purposes. Our use of the word connector in reference to this script is due to the fact that in a non-simulated scenario, one of the tasks that this script will be in charge of is to connect to the actual source of data.
